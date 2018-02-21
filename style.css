@@ -28,6 +28,7 @@ p {
   margin-top: 1em;
   padding: 5px;
   position: relative;
+  margin: 10px;
 }
 
 .title {
@@ -104,17 +105,7 @@ p {
   .col-lg-12 {
     width: 100%;
   }
-  /*custom*/
-  .box {
-    margin-top: 0;
-    width: 32%;
-  }
-  .one {
-    margin-right: 2%;
-  }
-  .three {
-    margin-left: 2%;
-  }
+  
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -159,11 +150,6 @@ p {
   .col-md-12 {
     width: 100%;
   }
-  /* custom */
-  .two {
-    float: right;
-  }
-  .box.col-md-6.col-lg-4 {
-  width: 49%;
+ 
 }
 
